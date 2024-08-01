@@ -25,6 +25,7 @@
 .name{
   font-size: 45px;
   font: bold;
+  margin-bottom: 24px;
 }
 
 .navbar{
@@ -56,7 +57,7 @@
 }
 
 .details{
-  font-size: 16px;
+  font-size: 10px;
   text-align: start;
 }
 
@@ -123,6 +124,47 @@ max-width: 537px;
   color: #FF900E;
   font-size: 45px;
   font-weight: bold;
+}
+
+.architect{
+  margin: 0 240px 130px 54px;
+}
+
+.feature-details{
+  padding: 30px 42px 30px 30px;
+  margin-top: 0px;
+}
+
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+
+.facts{
+  border: 2px solid #FF900E;
+  border-radius: 8px;
+  height: 240px;
+  width: 240px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.fact-number{
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600px;
+  margin-top:10px ;
+  margin-bottom: 5px;
+}
+
+.fact-name{
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
 }
 @media screen and (max-width: 576px) {
   .navbar , 
