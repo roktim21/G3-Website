@@ -57,7 +57,7 @@
 
 .details{
   font-size: 16px;
-  text-align: center;
+  text-align: start;
 }
 
 .banner-content{
@@ -87,9 +87,47 @@
   margin-bottom: 45px;
 }
 
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.team-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  border-radius: 8px;
+}
+
+.our-features{
+margin: 287px 301px 332px 73px;
+max-width: 537px;
+}
+
+#Quick-list{
+  font-size: 45px;
+  font-weight: 300;
+  color: #727272;
+}
+#of-Our{
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+#Features{
+  color: #FF900E;
+  font-size: 45px;
+  font-weight: bold;
+}
 @media screen and (max-width: 576px) {
   .navbar , .nav-links{
 
     flex-direction: column;
   }
+
 }
